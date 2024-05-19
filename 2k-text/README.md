@@ -4,7 +4,7 @@ I have rendered 2k Text components in a Vertical scrollable column.
 
 This is not a lazy column.
 
-To See reports => [Reports](reports)
+To See reports => [Reports](reports/reports.html)
 
 Text content used:
 ```txt
