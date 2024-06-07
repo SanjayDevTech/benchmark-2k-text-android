@@ -9,4 +9,5 @@ See the web version: https://performance-benchmark-android.vercel.app/
 Benchmark scenarios:
 
 - [2k-text](/2k-text/)
+- [500-rive](/500-rive/)
 
