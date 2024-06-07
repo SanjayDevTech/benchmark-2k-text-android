@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>500 Rive</title>
+    <script src="https://cdn.jsdelivr.net/npm/showdown@2.1.0/dist/showdown.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      const converter = new showdown.Converter();
+      async function startConversion() {
+        const readMeText = await fetch("README.md").then(res => res.text());
+        const html = converter.makeHtml(readMeText);
+        document.getElementById("root").innerHTML = html;
+      }
+      startConversion();
+    </script>
+  </body>
+</html>
