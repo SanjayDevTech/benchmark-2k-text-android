@@ -7,9 +7,9 @@ This is not a lazy column.
 To See performance reports => [Reports](https://performance-benchmark-android.vercel.app/2k-text/reports/reports.html)
 
 Source code:
-- Jetpack Compose: https://github.com/SanjayDevTech/jetpack-compose-2k-text
-- Flutter: https://github.com/SanjayDevTech/flutter-2k-text
-- React Native: https://github.com/SanjayDevTech/react-native-2k-text
+- Jetpack Compose: https://github.com/SanjayDevTech/perf-compose-2ktext
+- Flutter: https://github.com/SanjayDevTech/perf-flutter-2ktext
+- React Native: https://github.com/SanjayDevTech/perf-reactnative-2ktext
 
 Text content used:
 ```txt
